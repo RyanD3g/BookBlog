@@ -1,0 +1,47 @@
+.rootForm{
+    $sizeTotal: 100%;
+    width: $sizeTotal;
+    height: 700px;
+    display: flex;
+    .form{
+        width: $sizeTotal;
+        height: $sizeTotal;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        form{
+            display: flex;
+            width: 400px;
+            height: 320px;
+            flex-direction: column;
+            margin-top: 170px;
+            box-shadow: 7px 5px rgba(0, 0, 0, 0.055);
+            border-radius: 10px;
+            h2{
+                margin-left: 20px;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                color: rgb(240, 158, 6);
+            }
+            span{
+                margin-left: 20px;
+                margin-top: 10px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 15px;
+            }
+            input{
+                margin-left: 20px;
+                margin-bottom: 10px;
+                margin-top: 10px;
+                width: 80%;
+                height: 20px;
+                border: none;
+                box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.096);
+            }
+            button{
+                margin-left: 20px;
+                width: 30%;
+            }
+        }
+    }
+}

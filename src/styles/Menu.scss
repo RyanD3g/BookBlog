@@ -1,0 +1,37 @@
+.root{
+    $sizeTotal: 100%;
+    width: $sizeTotal;
+    height: 130px;
+    .cabecalho{
+        width: $sizeTotal;
+        height: 600px;
+        .menu{
+            width: $sizeTotal;
+            height: 120px;
+            background-color: black;
+            .container_0{
+                float: left;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                width: 400px;
+                height: 100%;
+                .tipical{
+                    color: rgb(255, 255, 255);
+                    font-family: 'Courier New', Courier, monospace;
+                    font-size: 31px;
+                }
+                .icon{
+                    color: rgb(238, 246, 14);
+                    font-size: 30px;
+                }
+                h1{
+                    color: rgb(232, 232, 10);
+                    font-family: 'Courier New', Courier, monospace;
+                    font-size: 31px;
+                }
+            }
+        }
+    }
+}

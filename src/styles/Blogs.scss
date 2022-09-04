@@ -1,0 +1,54 @@
+.rootBlog{
+    $sizeTotal: 100%;
+    display: flex;
+    float: left;
+    width: $sizeTotal;
+    height: $sizeTotal;
+    .posts{
+        width: $sizeTotal;
+        height: $sizeTotal;
+        margin-top: 40px;
+        .container_01{
+            width: $sizeTotal;
+            height: $sizeTotal;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            .artiqles{
+                width: 700px;
+                height: 200px;
+                background-color: white;
+                border-radius: 30px;
+                box-shadow: 7px 7px rgba(0, 0, 0, 0.082);
+                animation: animation_message 2s;
+                margin-top: 20px;
+                h3{
+                    margin-left: 30px;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    margin-top: 50px;
+                }
+                h4{
+                    margin-left: 30px;
+                    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                    color: rgb(241, 163, 16);
+                }
+                p{
+                    font-size: 13px;
+                    margin-left: 30px;
+                    font-family: sans-serif;          }
+            }
+        }
+    }
+}
+
+@keyframes animation_message {
+    from{
+        margin-top: 200px;
+    }
+    to{
+        margin-top: 0;
+    }
+}
+
+
