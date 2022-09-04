@@ -1,6 +1,6 @@
 # BookBlog ✨ 🚀
 
-<h3>Project Created with React, Node and MongoDB 🚀</h3>
+<h3>Project Created with React + Sass, Node and MongoDB 🚀</h3>
 
 <h4>Design with MVC pattern 🚨</h4>
 
